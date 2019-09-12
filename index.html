@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gif Searcher</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js" charset="utf-8"></script>
+</head>
+
+<body style="background: #E8F7F9">
+    <div id="sticky">
+        <h1 id="header">Gif Hunter</h1>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Links</a>
+                <div class="dropdown-content">
+                    <a href="https://giphy.com/explore/of-the-day" target="_blank">Gif of the Day!</a>
+                    <a href="https://giphy.com/search/cat" target="_blank">Cat gifs</a>
+                    <a href="https://giphy.com/search/dog" target="_blank">Dog gifs</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <p id="home">Welcome to gif hunter; the one-stop shop catering for all your giffy needs, from
+        creepy cats
+        to dopey dogs,
+        we've got you covered!</p>
+
+    <div class="row">
+        <div class="column">
+            <img class="images"
+                src="https://images.assetsdelivery.com/compings_v2/kurashova/kurashova1710/kurashova171000060.jpg"
+                alt="guinea pig" style="width:100%;height: 350px">
+        </div>
+        <div class="column">
+            <img src="http://2.bp.blogspot.com/-85wJFiqEo0I/T-b92Ze8oKI/AAAAAAAABz8/MGRp6L0-QIE/s1600/funny-animal-backgrounds-1.jpg"
+                alt="gopher" style="width:100%;height: 350px">
+        </div>
+        <div class="column">
+            <img src="https://www.desktopbackground.org/download/o/2015/12/29/1065001_pics-facts-funny-stuff-about-animals-nature-great-white-shark_1920x1080_h.jpg"
+                alt="Shark" style="width:100%;height: 350px">
+        </div>
+    </div>
+
+
+    <p id="result"></p>
+
+
+    <section class="api">
+        <form id="form">
+            <input type="text" name="userInput" value="" id="dropdownlist" placeholder="search for a gif">
+            <button class="button">search</button>
+
+            <div id="giphy"></div>
+            <p id="result"></p>
+        </form>
+        </secton>
+
+
+        <section>
+            <button id="button1" type="submit" class="button">More results</button>
+
+        </section>
+
+        <div class="footer">
+
+
+            <p id="about">
+
+                <h2 class="med-heading">About</h2>
+
+                Gif Hunter is a non-profit, purely for the lols, pratise App!
+
+            </p>
+
+            <h2 class="med-heading">Contact</h2>
+
+            <p id="contact">email; gifhunter@gmail.com, tel: 07850-453-218, address: 12 Baker Street, Londinium, Albion
+            </p>
+
+        </div>
+
+</body>
+
+</html>
